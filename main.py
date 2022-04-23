@@ -26,7 +26,6 @@ if __name__ == "__main__":
    parser.add_argument("--gpus", help="number of gpus per each node")
    args = parser.parse_args()
    config = vars(args)
-   print(config['gpus'])
    
    # set the paramerts of ViT Network
    configuration = ViTConfigExtended()
