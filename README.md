@@ -2,6 +2,7 @@
 
 
 **This Repository Contains the Codes for Distributed ViT Training with PyTorch Lightning** 
+
 Base Code : https://hackmd.io/@arkel23/ryjgQ7p8u
 
 # Usage
@@ -38,8 +39,4 @@ python3 main.py --batch_size 32 --max_epochs 10  --accelerator ddp --num_nodes 1
 
 Before ruuning the command, you should configure your gpu cluster, for this perpouse use the following url:  
 https://devblog.pytorchlightning.ai/how-to-configure-a-gpu-cluster-to-scale-with-pytorch-lightning-part-2-cf69273dde7b
-
-
-
-Base Code : https://hackmd.io/@arkel23/ryjgQ7p8u 
 
