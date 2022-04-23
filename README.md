@@ -14,6 +14,7 @@ pip3 install -r requirements.txt
 python3 main.py --batch_size 32 --max_epochs 10  --accelerator ddp --num_nodes 1 --gpus 3
 
 **Note:**
+
 --gpus argument indicates the number of gpus  
 --num_nodes argument indicates the number of cluster nodes
 --accelerator indicates the Distributed modes:
