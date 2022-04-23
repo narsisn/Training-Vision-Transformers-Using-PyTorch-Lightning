@@ -19,7 +19,19 @@ python3 main.py --batch_size 32 --max_epochs 10  --accelerator ddp --num_nodes 1
 
 --num_nodes argument indicates the number of cluster nodes
 
---accelerator indicates the Distributed modes:
+--accelerator indicates the Distributed modes, Lightning allows multiple ways of training: 
+
+- Data Parallel (accelerator='dp') (multiple-gpus, 1 machine)
+
+- DistributedDataParallel (accelerator='ddp') (multiple-gpus across many machines (python script based)).
+
+- DistributedDataParallel (accelerator='ddp_spawn') (multiple-gpus across many machines (spawn based)).
+
+- DistributedDataParallel 2 (accelerator='ddp2') (DP in a machine, DDP across machines).
+
+- Horovod (accelerator='horovod') (multi-machine, multi-gpu, configured at runtime)
+
+- TPUs (tpu_cores=8|x) (tpu or TPU pod)
 
 
 
