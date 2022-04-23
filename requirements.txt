@@ -1,0 +1,5 @@
+pytorch-lightning
+vit-pytorch
+transformers
+wandb
+torchmetrics
