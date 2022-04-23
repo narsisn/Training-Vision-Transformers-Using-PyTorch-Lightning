@@ -1,14 +1,23 @@
 # Training-Vision-Transformers-Using-PyTorch-Lightning
 
 
-**This Repository Contains the for distributed ViT training with PyTorch Lightning** 
+**This Repository Contains the Codes for Distributed ViT Training with PyTorch Lightning** 
 
 # Usage
 
-**Step:1**
+**Step1: Install libraries**
 
-for gpus=1, max_epochs=10, accelerator='ddp'
-single node training with multiple GPUs 
+pip3 install -r requirements.txt
+
+**Step2: Running on Single Node with Multiple GPUs Environment** 
+
+python3 main.py --batch_size 32 --max_epochs 10  --accelerator ddp --num_nodes 1 --gpus 3
+
+Note:
+--gpus argument indicates the number of gpus 
+-- num_nodes argument indicates the number of cluster nodes
+-- 
+
 
 
 for :
