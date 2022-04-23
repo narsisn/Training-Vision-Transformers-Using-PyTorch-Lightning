@@ -2,6 +2,7 @@
 
 
 **This Repository Contains the Codes for Distributed ViT Training with PyTorch Lightning** 
+Base Code : https://hackmd.io/@arkel23/ryjgQ7p8u
 
 # Usage
 
