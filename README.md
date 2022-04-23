@@ -3,7 +3,9 @@
 
 **This Repository Contains the for distributed ViT training with PyTorch Lightning** 
 
+# Usage
 
+**Step:1**
 
 for gpus=1, max_epochs=10, accelerator='ddp'
 single node training with multiple GPUs 
