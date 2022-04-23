@@ -19,7 +19,7 @@ python3 main.py --batch_size 32 --max_epochs 10  --accelerator ddp --num_nodes 1
 
 --num_nodes argument indicates the number of cluster nodes
 
---accelerator indicates the Distributed modes, Lightning allows multiple ways of training: 
+--accelerator indicates the distributed modes, Lightning allows multiple ways of training: 
 
 - Data Parallel (accelerator='dp') (multiple-gpus, 1 machine)
 
